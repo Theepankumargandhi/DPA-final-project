@@ -4,8 +4,6 @@ This repo contains my final DPA project work. The main file is the Jupyter noteb
 ## What’s inside
 - **Notebook:** `final.ipynb` (python3)
 - **Key sections (from the notebook):**
-- (Notebook headings not found or not using Markdown # headers.)
-
 
 ## Requirements
 These are the Python packages the notebook imports (best effort):
@@ -27,9 +25,9 @@ statsmodels
 
 ## Setup
 ```bash
-# 1) Create virtual env (example with Python 3.10)
+# 1) Create virtual env
 python -m venv .venv
-source .venv/bin/activate   # on Windows: .venv\Scripts\activate
+source .venv/bin/activate   
 
 # 2) Install Jupyter and dependencies
 pip install jupyter IPython graphviz math matplotlib numpy onnx onnxruntime os pandas scikit-learn seaborn skl2onnx statsmodels
