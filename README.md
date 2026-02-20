@@ -31,9 +31,6 @@ source .venv/bin/activate
 
 # 2) Install Jupyter and dependencies
 pip install jupyter IPython graphviz math matplotlib numpy onnx onnxruntime os pandas scikit-learn seaborn skl2onnx statsmodels
-
-# (Optional) Save exact versions
-pip freeze > requirements.txt
 ```
 
 ## How to Run
